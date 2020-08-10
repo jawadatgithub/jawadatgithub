@@ -49,3 +49,6 @@ namespace MyLifeCode
 }
 ```
 :copyright: :100::free: :clock4: :man_technologist::brain:
+
+### To build above snippet your build environment shall use the following stack:
+![My Stack!](LinkedInBackground.png)
