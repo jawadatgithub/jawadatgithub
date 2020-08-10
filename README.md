@@ -33,7 +33,7 @@ namespace MyLifeCode
                     }
                     catch (Exception familyEx)
                     {
-                        Console.WriteLine("AHHHHHHHHHHHH! I am broken.");
+                        Console.WriteLine("AHHHHHHHHHHHH! Always remeber: family never bahave as my bug-free code.");
                         ++workingFather.DiplomacyLevel;
                         --workingFather.TechnicalSkills;
                     }
