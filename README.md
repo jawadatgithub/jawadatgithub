@@ -35,7 +35,7 @@ namespace MyLifeCode
                     {
                         Console.WriteLine("AHHHHHHHHHHHH! Always remeber: family never bahave as my bug-free code.");
                         ++workingFather.DiplomacyLevel;
-                        --workingFather.TechnicalSkills;
+                        workingFather.TechnicalSkills += Math.Sin(Math.PI);
                     }
                 }
                 await World.Awake().PurgeEvil().Order().Build();
