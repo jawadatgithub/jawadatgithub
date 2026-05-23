@@ -179,30 +179,6 @@ if __name__ == "__main__":
 
 ---
 
-## 🛰️ Agentic AI Pipeline DNA
-
-```mermaid
-flowchart LR
-    A[Signals & Events] --> B[Data Normalization]
-    B --> C[Knowledge + Memory]
-    C --> D[AI Reasoning Layer]
-    D --> E[Tool Calling / APIs]
-    E --> F[Human Approval Gates]
-    F --> G[Execution]
-    G --> H[Audit Logs + Observability]
-    H --> C
-
-    subgraph Trust["Trust Layer"]
-      I[Policy]
-      J[Security]
-      K[Monitoring]
-      L[Rollback]
-    end
-
-    D --- Trust
-    G --- Trust
-```
-
 ---
 
 ## 🧩 Skills Matrix
@@ -260,35 +236,6 @@ flowchart LR
 </p>
 
 ---
-
-## 🏗️ InSysOut Operating Model
-
-At **InSysOut**, I focus on practical AI transformation: turning business workflows into intelligent, integrated, auditable systems.
-
-```mermaid
-mindmap
-  root((InSysOut))
-    Labs
-      AI R&D
-      Agent prototypes
-      Research notes
-    Forge
-      Edge AI
-      Electronics
-      Robotics integration
-    Nexus
-      AI-ready hardware
-      Sensors
-      Electronic products
-    Ops
-      Managed AI systems
-      Monitoring
-      OTA operations
-    Academy
-      AI training
-      Robotics bootcamps
-      Enterprise skilling
-```
 
 ---
 
